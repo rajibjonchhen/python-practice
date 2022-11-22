@@ -282,3 +282,7 @@ from math import *
 # person1 = Person(Student)
 # print(person1.name)
 # print(person1.age)
+
+import newModule
+
+newModule.testModule()
