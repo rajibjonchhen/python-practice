@@ -108,3 +108,35 @@ adam = 6
 print(john, mary, adam, sep=",")
 total_apples = john + mary + adam
 print("Total numbers of apples :", + total_apples)
+
+sheep = 1
+dog = 3
+print("sheep ->", sheep, "dog ->", dog )
+sheep += 1
+dog -= 1
+print("sheep ->", sheep, "dog ->", dog )
+sheep += 1
+dog -= 1
+print("sheep ->", sheep, "dog ->", dog )
+
+miles = 7.38
+kilometers = 12.25
+# 7.38 miles is 11.88 kilometers
+# 12.25 kilometers is 7.61 miles
+miles_to_km = miles  * 1.61
+kilometers_to_mile = kilometers * 1/1.61
+print(miles , "miles is " , round(miles_to_km, 2), "kilometers")
+print(kilometers , "kilometers is " , round(kilometers_to_mile, 2) , "miles")
+
+# calculating area of a rectangle
+length = 5
+breath =  4
+area = length * breath
+print("area = " , area)
+
+print("lets calculate area of rectangle")
+print("enter the length of the rectangle = ")
+length = input("length = ")
+print("enter the breath of the rectangle = ")
+breath = input("breath = ")
+print("area = " , int(length) * int(breath))
