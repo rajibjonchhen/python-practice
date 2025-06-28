@@ -81,6 +81,20 @@ print(-0.5, 0.5, 0, -1)
 print((2 % -4), (2 % 4), (2 ** 3 ** 2))
 print(  -2,  2, 512)
 
+print(
+"""             
+        '
+        **
+      ******
+    **********
+    **********
+     ***  ***
+     ***  ***
+     ********
+
+""")
+
+
 #['False', 'None', 'True', 'and', 'as', 'assert', 'break', 
 # 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 
 # 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 
@@ -173,3 +187,38 @@ elif want_to_do == 3:
     print("Lets play football")
 else:
     print("Lets just rest")
+
+password = "1"
+key =""
+while password != key:
+    key = input("Enter the password")
+
+
+print("!*!*!*!*! - correct password Yipppy - !*!*!*!*!")
+
+numb_of_round = int(input("number of round"))
+for i in range(numb_of_round):
+    print(" I am in round", i+1)
+print(numb_of_round, " Rounds completed")
+
+
+for i in range(2, 8):
+    print("The value of i is currently", i)
+
+for i in range(2, 8, 2): #first initial, second last range not including, third for increment
+    print("The value of i is currently", i)
+
+
+power = 1
+for exp in range(16):
+    print("2 to the power", exp, "is", power)
+    power *= 2
+
+print("2^16 = ", power)
+
+# time.sleep hold for sometime indicated as the argument
+import time
+
+for sec in range(1,11):
+    print(sec, "Mississippi")
+    time.sleep(1)
