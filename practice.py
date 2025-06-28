@@ -140,3 +140,6 @@ length = input("length = ")
 print("enter the breath of the rectangle = ")
 breath = input("breath = ")
 print("area = " , int(length) * int(breath))
+
+x = int(input("Enter a number: ")) # The user enters 2
+print(x * "5")
