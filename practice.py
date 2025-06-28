@@ -129,17 +129,47 @@ print(miles , "miles is " , round(miles_to_km, 2), "kilometers")
 print(kilometers , "kilometers is " , round(kilometers_to_mile, 2) , "miles")
 
 # calculating area of a rectangle
-length = 5
-breath =  4
-area = length * breath
-print("area = " , area)
+# length = 5
+# breath =  4
+# area = length * breath
+# print("area = " , area)
 
-print("lets calculate area of rectangle")
-print("enter the length of the rectangle = ")
-length = input("length = ")
-print("enter the breath of the rectangle = ")
-breath = input("breath = ")
-print("area = " , int(length) * int(breath))
+# print("lets calculate area of rectangle")
+# print("enter the length of the rectangle = ")
+# length = input("length = ")
+# print("enter the breath of the rectangle = ")
+# breath = input("breath = ")
+# print("area = " , int(length) * int(breath))
 
 x = int(input("Enter a number: ")) # The user enters 2
 print(x * "5")
+
+
+var = 0  # Assigning 0 to var
+print("'var != 0' =", var != 0)
+ 
+var = 1  # Assigning 1 to var
+print("'var != 0' =", var != 0)
+
+
+n = int(input("enter your desired number ="))
+answer = n >= 100
+print("answer is ", answer)
+
+# if else
+weather = int(input(" Is the weather good? press 0 if not good and any other key if its good")) != 0
+if weather:
+    print("Yaaaah ,we are going out for walk")
+else:
+    print("The weather is not good so, let's not walk")
+
+# if else
+want_to_do = int(input(" What do you want to do today? 1. go out 2. watch movie 3. play outdoor 4. nothing"))
+if want_to_do == 1:
+    print("Lets go to the zoo")
+elif want_to_do == 2:
+    print("Lets watch 007")
+elif want_to_do == 3:
+    print("Lets play football")
+else:
+    print("Lets just rest")
